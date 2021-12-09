@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem auto;
+    height: 2rem;
+    width: 20%;
+}
+.btn {
+    font-size: 1.5rem;
+    cursor: pointer;
+    width: 2.5rem;
+    height: 2.5rem;
+    color: #F7F6F2;
+    background-color: rgb(238, 61, 61);
+    font-family:"calibri";
+    border-radius: 0.5rem;
+}
+
+.btn:focus {
+    transition: ease-in-out .3s;
+    color: #0a0a0afd;
+    background-color: white;
+}
+.btn:hover {
+    transition: ease-in-out .3s;
+    color: #0a0a0afd;
+    background-color: #F7F6F2;
+}

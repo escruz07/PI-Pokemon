@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('http://fonts.cdnfonts.com/css/pokemon-solid');
+
+.gif{
+    background-image: url('../imagenes/landing2\ gif.gif');
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    margin: 0px 0px 0px 0px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    backdrop-filter: blur(20px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Press Start 2P';
+    font-size:1.8rem;
+}
+
+
+.span{
+    color:black;
+    font-size: 0.9rem;
+    margin-top: 150px;
+}
+
+.Btn{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.1rem;
+    border: 4.5px solid rgb(0, 0, 148);
+    cursor: pointer;
+    border-radius: 0.8rem;
+    width: 15rem;
+    height: 2.5rem;
+    color: rgb(0, 0, 148);
+    background: rgb(255, 189, 0);
+    margin-top: 440px;
+}
+.title{
+    color: rgb(255, 189, 0);
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    text-shadow: rgb(0, 0, 148) -5px 5px 0;
+    font-weight: 900;
+    margin-top:60px;
+}

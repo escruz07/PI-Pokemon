@@ -1,0 +1,16 @@
+.load{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.gif{
+    margin-top: 20px;
+    width: 250px;
+}
+.text{
+    font-family: 'Press Start 2P';
+    color:white;
+    -webkit-text-stroke: 1.5px red;
+    font-size:3.5rem;
+}

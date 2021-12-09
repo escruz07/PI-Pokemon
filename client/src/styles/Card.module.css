@@ -1,0 +1,41 @@
+/* .card{
+    display: grid;
+    grid-template-columns: 250px;
+    grid-template-rows: auto;
+    background: #3d3b35dc;
+    border-radius:18px;
+    margin-bottom: 1rem;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+    text-align: center;
+    border: 2px solid;
+    border-color: #c8c6c680;
+    transition: 0.5s ease;
+    align-items: center;
+} */
+
+.card{
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 250px;
+    background-color: #3d3b35dc;
+    border-radius: 18px;
+    border: 2px solid;
+    transition: 0.5s ease;
+    border-color: #c8c6c680;
+}
+.card:hover{
+    border: outset 5px rgb(151, 59, 59);
+    background-color: white;
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:black;
+    text-decoration: none;
+}
